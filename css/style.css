@@ -24,6 +24,7 @@ main {
 #toolview .toolview-container {
     justify-content: right;
 }
+
 #toolview .toolview-container>span {
     background-color: rgba(110, 104, 104, 0.5);
     font-size: 0.8rem;
@@ -45,7 +46,9 @@ main {
 .video-card {
     background-color: blue;
     width: calc(88vw / 7);
+    min-width: 182px;
     height: calc(76vh / 5);
+    min-height: 112px;
     background-image: url(https://picsum.photos/300/200);
     background-size: cover;
     position: relative;
