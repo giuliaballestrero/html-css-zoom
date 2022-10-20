@@ -15,10 +15,22 @@ main {
 }
 
 #toolview {
-    height: 5vh;
+    height: 10vh;
     background-color: #000000;
     font-weight: bold;
     color: #ffffff;
+}
+
+#toolview .toolview-container {
+    justify-content: right;
+}
+#toolview .toolview-container>span {
+    background-color: rgba(110, 104, 104, 0.5);
+    font-size: 0.8rem;
+    padding: 0.2rem;
+    border-radius: 1rem;
+    margin-top: 0.3rem;
+    margin-right: 0.5rem;
 }
 
 .video-container {
@@ -33,7 +45,7 @@ main {
 .video-card {
     background-color: blue;
     width: calc(88vw / 7);
-    height: calc(86vh / 5);
+    height: calc(76vh / 5);
     background-image: url(https://picsum.photos/300/200);
     background-size: cover;
     position: relative;
